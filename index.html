@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Product Landing Page</title>
+    <link rel='stylesheet' href='styles.css'>
+  </head>
+
+<body>
+  <header id='header'>
+    <img id='header-img' alt='logo' src='https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png'>
+    <nav id='nav-bar'>
+      <a href='#sign-up' class='nav-link'>Get Started</a>
+      <a href='#features' class='nav-link'>Features</a>
+      <a href='#working' class='nav-link'>How It Works</a>
+      <a href='#pricing' class='nav-link'>Pricing</a>
+    </nav>
+  </header>
+  <section id='sign-up'>
+    <h1 >Get Started</h1>
+    <form action='https://www.freecodecamp.org/email-submit' method='post' id='form' >
+    <input id='email' name='email' type='email' placeholder='Enter Your Email Address' required><br>
+    
+    <input type='submit' id='submit' value='Sign-Up'>
+    </form>
+  </section>
+  <section id='features'>
+    <h2>Premium Materials</h2>
+    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+    <h2>Fast Shipping & Easy Returns</h2>
+    <p>We make sure you receive your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+    <h2>Quality Assurance</h2>
+    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+  </section>
+  <section id='working'>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc?si=AoYNERqDXGQ9V_db" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id='video'></iframe>
+  </section>
+  <section id='pricing'>
+    <div id='tenor-price'>
+      <h3>TENOR TROMBONE</h3>
+      <h4>₹50000</h4>
+      <p>Good for beginners</p>
+      <p>Excellent sound quality</p>
+      <p>Nice and shiny</p>
+      <button class='select'>SELECT</button>
+    </div>
+    <div id='bass-price'>
+      <h3>BASS TROMBONE</h3>
+      <h4>₹75000</h4>
+      <p>Sound quality is unmatched</p>
+      <p>Best for professionals</p>
+      <p>Durable and long lasting</p>
+      <button class='select'>SELECT</button>
+    </div>
+    <div id='valve-price'>
+      <h3>VALVE TROMBONE</h3>
+      <h4>₹100000</h4>
+      <p>Plays similar to a Trumpet</p>
+      <p>Great for Jazz Bands</p>
+      <p>Just Amazing</p>
+      <button class='select'>SELECT</button>
+    </div>
+  </section>
+
+</body>
+
+</html>
